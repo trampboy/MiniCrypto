@@ -1,0 +1,4 @@
+rootProject.name = 'MiniCryptocurrency'
+include 'app'
+findProject(':app')?.name = 'MiniCryptocurrency'
+
